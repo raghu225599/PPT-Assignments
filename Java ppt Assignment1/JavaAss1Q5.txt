@@ -1,0 +1,10 @@
+Q5.What are the various access specifiers in Java?
+
+public:public access modifier accessed everywhere within the class, within the package, subclass of 
+same package,subclass of different package,different package but not subclass
+
+private:private access modifier can be accessed within the same class
+
+protected:protected access modifier can be accessed within the class,within the package,and subclass of different package
+
+default or no modifier:default or no access modifier can be accessed within the subclass of same package and within the same class and within the same package

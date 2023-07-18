@@ -1,0 +1,11 @@
+Q3.How many types of memory areas are allocated by JVM?
+
+Heap Area: heap area is a runtime data area.Objects and instance variables stored for them memory is allocated dynamically at the runtime
+
+stack Area: stack area is used for storing local variables and reference variables and these variables should be associate to a method when method call pushed on to stack and when the method completes its task it will popped out of the stack
+
+program counter:program counter is used to store the next instructions to be executed
+
+Method area:In method area .class files will get loaded along with static variables and compile time constants,when .class file loaded on to the method area then static variables are initialized
+
+native method area:native method area is a region of memory within the java virtual machine which is dedicated to store native method code.native methods are implemented in languages other than java,such as c or c++.

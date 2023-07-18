@@ -1,0 +1,9 @@
+4)What is JIT Compiler?
+ 
+JIT Stands for just-in-time compiler,when a java program is compiled,it is first convrted into bytecode.During execution the jvm interpretes the bytecode line by line which increases the execution time,so this where JIT compiler comes into play.
+
+The JIT Compiler is a part of jvm which identifies the sections of code that are frequently executed convert them into native code which can 
+directly run on hardware so it decreases the execution time which increases the performance.
+
+it doesnot convert entire program which focuses on sections of code that are frequently executed, 
+known as hotspots, it compiles them into native code which can be directly executed on hardware

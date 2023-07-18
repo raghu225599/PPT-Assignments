@@ -1,0 +1,9 @@
+Q8.what are the datatypes in java?
+byte: it represents signed 8-bit integer.the range is from -128 to 127
+short:size of short is 2bytes,the range is from -32768 to +32767
+int:size of int is 4bytes
+long:size of long is 8bytes
+float:size of float is 4bytes
+double:size of double is 8bytes
+char:size of char is 2bytes,because of i18N (internationalization)
+boolean:which is where 'true' or 'false' only will be accepted

@@ -1,0 +1,25 @@
+Q7.Explain the types of variables in Java?
+varibles are divided based on two phases
+	a.based on the type of value the variable holds
+		1.primitive type variable: it holds the direct literal
+		2.reference type variable: holds the address of an object
+	b.based on the position of declaration of a variable
+		1.local variable:
+			the variables which are declared inside method are known as local variables.
+			local variables have to be initialized, for these variables default value will be not given by jvm.
+			local variables are stored in stack and if the value is primitive it is stored in stack if it is an object the 
+			value is stored in heap memory and the reference(local variable) will point to object present heap memory
+			memory for local variable will be allocated once the control enter inside the method.
+			memory for local variable will be dealloacated once the control leaves the method.
+		2.instance variable:
+			if the value of the varible changes from object to object then that variable will be called as instance variable.
+			instance variables along with its value, the value can be primitive or object they are stored in heap memory
+			the memory for instance variable will be given during the creation of the object.
+			the memory for instance variable will be deallocated once the object is destroyed. are stored in heap memory
+		3.static variable:
+			if the value of the variable will be same for all the instances of the class then that variable will called as
+			static variable
+			the memory for the static variable will be given at time loading the .class file and memory will be deallocated 
+			at the time of unloading the .class file
+			static variables and its value if the value is primitive stored at method area, suppose if the value is a  object then it is
+			stored at heap at heap area and reference(static variable) will be to the object stored in heap area

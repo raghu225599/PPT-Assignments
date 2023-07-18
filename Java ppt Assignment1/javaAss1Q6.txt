@@ -1,0 +1,4 @@
+Q6>what is a compiler in java?
+In Java, a compiler is a software which converts source code which is in high level language into byte code which is neither in high level language nor in machine level language and it is a platform independent representation of the program.
+The bytecode is given to jvm for execution.
+compiler scans the code only once and identify all the errors present in the code.
