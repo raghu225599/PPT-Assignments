@@ -1,0 +1,17 @@
+Q9> write a program to check if the letter 'e' is present in the word 'umbrella'
+
+class EContainsOrNot{
+	 public static void main(String[] args) {
+	        String name="umbrella";
+       		boolean flag=false;
+       		for(int i=0;i<name.length();i++){
+          		if(name.charAt(i)=='e') {
+            		  System.out.println("e is present");
+            		  flag=true;
+             		  break;
+        		}
+      	 	}
+      		if(!flag)
+		   System.out.print("e is not present");
+    	}
+}

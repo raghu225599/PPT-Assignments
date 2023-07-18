@@ -1,0 +1,3 @@
+Q10>where exactly is the string constant pool is loacated in the memory?
+ To execute our java programs operating system allocates memory for jdk in ram,in jdk, jre is present which 
+ java runtime environment which gives required files to execute our java program and in jre, jvm(java virtual machine) is present and it is responsible to execute our java program, in jvm heap area is present inside heap area some part of memory is allocated for string constant pool. 

@@ -1,0 +1,12 @@
+Q7.What is Mutable String in Java Explain with an example?
+A String in which if we perform then if changes reflected on the same object or String without creating a new object then called as mutable string.
+
+Example:
+
+public class MutableStringExample {
+    public static void main(String[] args) {
+        StringBuilder sb=new StringBuilder("java");
+        sb.append("program");
+        System.out.print(sb);
+    }
+} 

@@ -1,0 +1,19 @@
+Q5.What is the syntax of if else statement?
+
+syntax:
+-------
+for one statement syntax is 
+
+if(condition)
+	statement;
+else
+	statement;
+
+for multiple statement syntax is
+
+if(condition){
+	statement;
+}
+else{
+	statement;
+}

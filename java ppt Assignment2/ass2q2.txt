@@ -1,0 +1,23 @@
+Q2> What are the types of operators based on the number of operands?
+There are two phases of operators based on the number of operands
+1)unary operand operators
+2)binary operand operators
+
+1)unary operand operators:
+	1)unary plus operator(+): int a=+a;
+	2)unary minus operator(-): int a=-a;
+	3)increment operator(++): int a=0;
+				      a++;
+	4)decrement operator(--): int a=0;
+				      a--;
+	5)boolean not operator(!): boolean value=false;
+				         value=!value;
+	6)bitwise unary complement(~): int a=~2;
+				       System.out.println(a);
+2)binary operand operators:
+	1)Arithmetic operators(+,-,*,/,%)
+	2)Equality operators(==,>,<,>=,<=,!=)
+	3)conditional operators(&&,||,?:)
+	4)simple Assignment operator(=)
+	5)Type comparision operator(instanceof)
+	6)Bitwise and Bitshift operators(<<,>>,>>>,&,|,^)

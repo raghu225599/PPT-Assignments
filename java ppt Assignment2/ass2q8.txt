@@ -1,0 +1,11 @@
+q8>write a program to sort a String alphabetically?
+class StringSort{
+	public static void main(String[] args) {
+       	 	Scanner scanner=new Scanner(System.in);
+        	String name=scanner.next();
+        	char[] chars=name.toCharArray();
+        	Arrays.sort(chars);
+        	name=String.valueOf(chars);
+        	System.out.println(name);
+    }
+}

@@ -1,0 +1,4 @@
+Q4>What are the conditional Statements and use of conditional statements in Java?
+conditional statements are statements which are either executed or not executed based on the condition evaluated.
+The use of conditional statements, if there are more than one statement present in the program and one of them have to be executed then put
+the statements under the respective conditions, then one of the condition will be true executes the statement under that condition which evaluates as true.

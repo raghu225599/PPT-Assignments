@@ -1,0 +1,18 @@
+Q3What is the use of Switch case in Java programming?
+Unlike them and if then and if then else statements ,A switch works with byte,short ,chart and int primitive datatypes.it can also works with enumeration type,string class and a few special class which wrapper classes(Byte,Short,and Integer,Character).
+
+syntax: 
+switch(expression){
+	case value1:
+		statement;
+		break;
+	case value2:
+		statement;
+		break;
+	case value3:
+		statement;
+		break;
+	default:
+		statement;
+		break;
+}	

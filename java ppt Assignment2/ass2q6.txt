@@ -1,0 +1,2 @@
+Q6.How do you compare two strings in Java?
+we compare two strings in java with equals() method and equals() method compares the content present in the object,if to compare the content in case insensitive then we need to use equalsIgnoreCase()
