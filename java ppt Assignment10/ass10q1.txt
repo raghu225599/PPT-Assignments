@@ -1,0 +1,10 @@
+Q1.What is the Spring MVC framework?s
+The Spring MVC (Model-View-Controller) framework is a popular web application framework for building Java-based enterprise applications. It is part of the larger Spring Framework ecosystem developed by Pivotal Software (now VMware).
+
+The Spring MVC framework follows the MVC architectural pattern, which promotes a clear separation of concerns between the different components of a web application. Here's a brief overview of each component:
+
+Model: The model represents the data and business logic of the application. It typically consists of POJOs (Plain Old Java Objects) or JavaBeans that encapsulate the application's data.
+
+View: The view is responsible for rendering the user interface and presenting the data to the user. It can be a JSP (JavaServer Pages), Thymeleaf template, or any other template engine supported by Spring MVC.
+
+Controller: The controller handles the incoming requests from the users and acts as an intermediary between the model and the view. It processes the user input, performs necessary actions, and updates the model accordingly. It also selects the appropriate view to render the response.

@@ -1,0 +1,2 @@
+Q8.What is the significance of @Repository annotation?
+The @Repository annotation in Spring marks a class as a repository or data access object (DAO). It is used to simplify configuration, enable exception translation, and facilitate component scanning. When used with Spring's transaction management, it helps manage transactions for persistence operations. By using @Repository, you can eliminate explicit bean configurations, improve code organization, and leverage Spring's data access features effectively.

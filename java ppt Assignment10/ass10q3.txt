@@ -1,0 +1,20 @@
+Q3.What is DispatcherServlet in Spring MVC? In other words, can you explain the Spring MVC architecture?
+The DispatcherServlet is a key component of the Spring MVC framework. It acts as the front controller in the Spring MVC architecture, responsible for receiving and dispatching requests to the appropriate handlers for processing.
+
+In the Spring MVC architecture, the flow of a request can be summarized as follows:
+
+Client sends a request: A client (typically a web browser) sends an HTTP request to the server to access a particular URL.
+
+DispatcherServlet receives the request: The DispatcherServlet is a specialized servlet provided by the Spring MVC framework. It is configured to intercept all incoming requests and acts as the entry point for the Spring MVC application.
+
+Handler Mapping: The DispatcherServlet consults the configured HandlerMappings to determine the appropriate controller/handler for the request. The HandlerMapping maps the request URL or other attributes to a specific handler.
+
+Handler Execution: Once the appropriate handler/controller is determined, the DispatcherServlet invokes the associated handler method to process the request. The handler method performs the necessary business logic, interacts with the model, and prepares the data to be displayed.
+
+Model population: During handler execution, the handler method updates the model, which represents the data to be displayed or processed.
+
+View Resolution: After the handler has finished processing, the DispatcherServlet consults the configured ViewResolver(s) to determine the appropriate view based on the handler's response. The ViewResolver resolves the logical view name to the actual view implementation (such as JSP, Thymeleaf template, etc.).
+
+View Rendering: Once the view is resolved, the DispatcherServlet dispatches the model and the selected view to the View for rendering. The view takes the model data and generates the final output (HTML, XML, JSON, etc.) that will be sent back to the client.
+
+Response sent to the client: The rendered view is returned to the DispatcherServlet, which sends the response back to the client.

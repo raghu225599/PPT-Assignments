@@ -1,0 +1,2 @@
+Q7.What is the role of @ModelAttribute annotation?
+The @ModelAttribute annotation in Spring MVC is used for data binding and managing model attributes. It binds request data to a method parameter or adds a method's return value to the model. It enables automatic population of objects with request data and facilitates sharing common attributes across multiple handler methods. Additionally, it can be used for pre-processing tasks and form binding, simplifying the handling of request data and enhancing the interaction between the controller, model, and view components.

@@ -1,0 +1,18 @@
+Q10.What is differences between RESTful web services and SOAP web services?
+RESTful web services and SOAP web services differ in several key aspects:
+
+1. Architecture: RESTful web services adhere to the principles of the REST architectural style, while SOAP web services are based on the SOAP protocol.
+
+2. Communication Protocol: RESTful web services primarily use HTTP as the communication protocol, while SOAP web services can be transported over various protocols like HTTP, SMTP, or TCP.
+
+3. Data Format: RESTful web services commonly use lightweight and human-readable formats like JSON or XML, whereas SOAP web services use XML for data exchange.
+
+4. Interface Style: RESTful web services have a simpler interface based on URLs and HTTP methods, while SOAP web services have a more rigid interface defined by WSDL.
+
+5. Statefulness: RESTful web services are stateless, whereas SOAP web services can be stateful or stateless.
+
+6. Flexibility: RESTful web services are more flexible and not tied to specific technologies or platforms, while SOAP web services have standardized specifications and tooling support.
+
+7. Performance: RESTful web services are generally considered to have better performance due to their lightweight nature, while SOAP web services have more overhead due to the XML-based message format.
+
+In summary, RESTful web services are simpler, use HTTP as the primary protocol, and are suited for lightweight applications. SOAP web services have more complex interfaces, support various protocols, and are often used in enterprise-level applications with advanced requirements.

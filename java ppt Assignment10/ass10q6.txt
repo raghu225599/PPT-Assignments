@@ -1,0 +1,2 @@
+Q6.What is the Model in Spring MVC?
+The Model in Spring MVC represents the data or state that is passed between the controller and the view. It holds the application's data and business logic. The Model is used to pass data from the controller to the view for rendering and accessing that data. It promotes a separation of concerns between the controller and view, ensuring that the controller handles data processing while the view focuses on displaying the data.

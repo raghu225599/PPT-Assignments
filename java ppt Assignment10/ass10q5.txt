@@ -1,0 +1,6 @@
+Q5.What are the differences between @RequestParam and @PathVariable annotations?
+The @RequestParam annotation in Spring MVC is used to extract request parameters from the query string or form data of an HTTP request. It binds the parameter value to the method parameter based on the parameter name. It is typically used with HTTP GET or POST requests.
+
+On the other hand, the @PathVariable annotation is used to extract path variables from the URL itself. It binds the value of a variable within the URL path to the method parameter based on the variable name. It is commonly used with HTTP GET requests, especially in RESTful API endpoints.
+
+In summary, @RequestParam extracts request parameters, while @PathVariable extracts path variables. They are used in different scenarios and provide different ways of retrieving data from an HTTP request.
